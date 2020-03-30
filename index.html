@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="converter.js"></script>
+    </head>
+    <body>
+        <h2>Currency Converter</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Amount</td>
+                    <td>From Currency</td>
+                    <td>To Currency</td>
+                </tr>
+                <tr>
+                    <td><input class="amt"/></td>
+                    <td><select class="fromCurr"></select></td>
+                    <td><select class="toCurr"></select></td>
+                    <td><button id="converBtn" onclick="convertCurrency()">Convert</button></td>
+                </tr>
+                <tr>
+                    <td id="convertedValue">Not Converted yet...</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
